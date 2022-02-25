@@ -11,7 +11,7 @@ CC	= gcc
 
 RM	= rm -f
 
-SRCS	=	$(wildcard sources/*.c) \
+SRCS	=	$(wildcard src/*.c) \
 
 OBJS	= $(SRCS:.c=.o)
 
